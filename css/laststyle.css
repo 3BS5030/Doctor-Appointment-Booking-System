@@ -1,0 +1,237 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    position: relative;
+    font-family: 'BenchNine', sans-serif !important;
+}
+.nav-link,.menu{
+    font-size: 2rem !important;
+    font-weight: 600;
+    word-break: keep-all !important;
+    &:hover{
+        color:#42b3e5 !important;
+    }
+}
+.nav-item{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-right: 1rem;
+    padding-left: 1rem;
+}
+.title {
+    margin-top: 3rem;
+    font-size: 6rem !important;
+    color: dimgrey;
+}
+
+.table-head {
+    background-color: #42b3e5 !important;
+    color: white;
+    font-size: 2rem;
+}
+
+.table {
+    font-size: 1.7rem;
+    width: 75% !important;
+    margin: 0 auto;
+    text-align: center;
+    margin-bottom:20vh;
+    td{
+        font-size: 2rem;
+        letter-spacing: 1px;
+        font-weight: 500;
+        text-transform: capitalize;
+    }
+}
+
+.insert-btn {
+    display: flex;
+    width: 75%;
+    flex-direction: row-reverse;
+    margin: 1rem auto;
+
+    a {
+        width: fit-content;
+        font-size: 1.8rem;
+        background-color:#42b3e5 !important;
+        border:none;
+        &:active{
+            box-shadow: unset !important;
+        }
+    }
+}
+.btn-primary{
+    border:none;
+    background-color: #acafa5;
+    &:hover{
+        background-color:#64685a;
+    }
+    &:active{
+        box-shadow: unset !important;
+    }
+}
+
+.record-img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    object-fit: contain;
+}
+
+.search-form {
+    display: flex;
+    width: 75%;
+    margin: 2rem auto !important;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    font-size: 27px;
+    font-family: sans-serif;
+}
+
+.btn-warning {
+    transition: all 0.3s;
+    color: #fff;
+    background-color: #42b3e5 !important;
+    border-color: #42b3e5 !important;
+    height: 4rem !important;
+    width: 4rem !important;
+    border-radius: 50% !important;
+    font-size: 1.6rem;
+    &:hover{
+        background-color: white !important;
+        color: #42b3e5 !important;
+    }
+    &:active{
+        outline: none !important;
+        box-shadow: unset !important;
+    }
+}
+.add-docs-form {
+width: 50%;
+margin: 0 auto;
+font-size: 2.2rem !important;
+
+button {
+  font-size: 1.8rem;
+  padding: 4px 18px;
+  word-spacing: 2px;
+  text-transform: uppercase;
+}
+}
+.choose-dep {
+    box-sizing: border-box;
+    background-color:#42b3e5 ;
+    color: white;
+    border: 3px solid #42b3e5 !important;
+    height: 28rem;
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+    box-sizing: border-box;
+    border-radius: 13px !important;
+    transition: all 0.5s;
+    margin: 1rem 0;
+    .symbol{
+        font-size: 3rem;
+    }
+    h3 {
+        font-size: 4rem;
+    }
+
+    &:hover {
+        background-color: white;
+        color: #42b3e5 !important;
+    }
+}
+.doctor-image {
+    img {
+        border-radius: 50% !important;
+        width: 150px;
+        height: 150px;
+        object-fit: contain;
+    }
+}
+
+.no-doctors {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 30vh;
+    font-size: 4.5rem;
+    opacity: 0.6;
+}
+.dr-details{
+    font-size: 3rem;
+text-transform: uppercase;
+}
+.doctor-photo{
+display: flex;
+justify-content: center;
+align-items: center;
+margin: 2em 0;
+img{
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+}
+.title-dr-edit{
+font-size: 4rem !important;
+  }
+
+.alert {
+    width: 75%;
+    margin: 0 auto;
+    font-size: 1.5rem;
+}
+
+.show-all{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    a{
+        border: none !important;
+        width: 75%;
+        margin: 0 auto;
+        background-color: #42b3e5;
+        color: white;
+        font-size: 2rem;
+        transition: all 0.2s;
+        &:hover{
+            background-color: #519dbe;
+            color: white ;
+        }
+        &:active{
+            box-shadow: unset !important;
+        }
+    }
+}
+.btn{
+    font-size: 1.5rem;
+}
+.links-container{
+    display: flex;
+    justify-content: center;
+    align-items: center
+}
+.form-control{
+    font-size: 1.5rem !important;
+}
+footer{
+    background-color: #3090b9 !important;
+    font-size: 1.3rem;
+    h5{
+        text-align: center;
+        font-size: 2rem;
+    }
+}
+.back{
+    font-size: 2rem !important;
+}
